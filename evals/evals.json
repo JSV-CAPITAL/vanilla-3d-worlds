@@ -1,0 +1,23 @@
+{
+  "skill_name": "vanilla-3d-worlds",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to build a 3D particle galaxy for my portfolio site's hero section. Something that looks like a swirling nebula with thousands of stars, and it should react to mouse movement. I want it to feel calm and cosmic. Desktop only is fine. Use Three.js.",
+      "expected_output": "A multi-file Three.js project with a particle system using Points/BufferGeometry, mouse-reactive camera or particle displacement, bloom post-processing, proper color palette (deep blues/purples with bright star points), smooth animation loop with delta time, and a DESIGN.md capturing the cosmic/calm vision. The agent should ask clarifying questions about color palette, specific interaction style, and integration with the portfolio before building.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "make me a cool 3d thing with WebGL, like a terrain you can fly over. mountains and stuff. needs to work on mobile too",
+      "expected_output": "The agent should engage in discovery first — asking about visual style (photorealistic vs stylized vs low-poly), color palette, what 'fly over' means (automatic flythrough vs user-controlled), and mood. Then build a raw WebGL or Three.js project with procedural terrain using noise-based vertex displacement, a fly-through camera, fog/atmosphere, and mobile-friendly performance (capped pixel ratio, simplified geometry). Should include touch controls for mobile.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I'm building a product page for a sneaker brand and I want the shoe to float and rotate in 3D with dramatic lighting. Think Nike-level presentation. The background should be dark with subtle particle effects. Users should be able to drag to rotate the shoe. I have a .glb file of the shoe already.",
+      "expected_output": "The agent should ask about the specific mood (sporty/luxury/streetwear), whether they want color variants, and any brand colors. Then build a Three.js project with GLTFLoader for the .glb, orbit controls (constrained rotation), dramatic three-point lighting with color temperature contrast, HDRI environment map for reflections, subtle floating animation, particle backdrop, bloom post-processing, and a smooth loading experience. Project structure with separate files for scene, lighting, materials, interaction.",
+      "files": []
+    }
+  ]
+}
